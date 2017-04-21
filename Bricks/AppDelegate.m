@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BKMainViewController.h"
+#import "BKNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    BKMainViewController *vc = [[BKMainViewController alloc] init];
+    BKNavigationController *naviVC = [[BKNavigationController alloc] initWithRootViewController:vc];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor greenColor];
+    
+    [self.window setRootViewController:naviVC];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
