@@ -7,6 +7,7 @@
 //
 
 #import "BKCAShapeLayerViewController.h"
+#import "BKCanvasView.h"
 
 @interface BKCAShapeLayerViewController ()
 
@@ -22,6 +23,7 @@
     self.title = @"CAShapeLayer";
     [self addContentView];
     [self addContent1];
+    [self addContent2];
 }
 
 - (void)addContentView {
@@ -30,7 +32,7 @@
     rt.origin.y = 64;
     rt.size.height -= 64;
     self.contentScrollView = [[UIScrollView alloc] initWithFrame:rt];
-    self.contentScrollView.contentSize = CGSizeMake(rt.size.width, rt.size.height * 2);
+    self.contentScrollView.contentSize = CGSizeMake(rt.size.width, rt.size.height * 3);
     self.contentScrollView.pagingEnabled = YES;
     [self.view addSubview:self.contentScrollView];
 }
@@ -56,6 +58,19 @@
     fillLayer.opacity = 1;
     [image.layer addSublayer:fillLayer];
     
+}
+
+- (void)addContent2 {
+    CGRect rt = self.contentScrollView.bounds;
+    rt.origin.y = rt.size.height;
+    
+    UIImageView *image = [[UIImageView alloc] initWithFrame:rt];
+    image.image = [UIImage imageNamed:@"bizhi"];
+    [self.contentScrollView addSubview:image];
+    
+    BKCanvasView *canvasView = [[BKCanvasView alloc] initWithFrame:CGRectMake(50, rt.origin.y + 50, 200, 200)];
+    canvasView.dashLineColor = [UIColor whiteColor];
+    [self.contentScrollView addSubview:canvasView];
 }
 
 

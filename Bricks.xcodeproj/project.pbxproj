@@ -16,6 +16,13 @@
 		5093F6941EA9EA4C0033CD58 /* BKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6931EA9EA4C0033CD58 /* BKMainViewController.m */; };
 		5093F69A1EA9EE2E0033CD58 /* BKCAShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6991EA9EE2E0033CD58 /* BKCAShapeLayerViewController.m */; };
 		5093F69C1EA9F34B0033CD58 /* BKCAShapeLayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5093F69B1EA9F34B0033CD58 /* BKCAShapeLayer.xcassets */; };
+		5093F6A01EAA08B10033CD58 /* BKGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F69F1EAA08B10033CD58 /* BKGradientView.m */; };
+		5093F6A31EAA0B4D0033CD58 /* BKCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6A21EAA0B4D0033CD58 /* BKCanvasView.m */; };
+		5093F6B91EAA0F2E0033CD58 /* NSArray+BKSafeExts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6B21EAA0F2E0033CD58 /* NSArray+BKSafeExts.m */; };
+		5093F6BA1EAA0F2E0033CD58 /* NSDictionary+BKSafeExts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6B41EAA0F2E0033CD58 /* NSDictionary+BKSafeExts.m */; };
+		5093F6BB1EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6B61EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.m */; };
+		5093F6BC1EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6B81EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.m */; };
+		5093F6C01EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6BF1EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.m */; };
 		50ED752843ACEA027949F5DF /* libPods-Bricks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94392D319D6620CCF4B261BD /* libPods-Bricks.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +44,20 @@
 		5093F6981EA9EE2E0033CD58 /* BKCAShapeLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCAShapeLayerViewController.h; sourceTree = "<group>"; };
 		5093F6991EA9EE2E0033CD58 /* BKCAShapeLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCAShapeLayerViewController.m; sourceTree = "<group>"; };
 		5093F69B1EA9F34B0033CD58 /* BKCAShapeLayer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BKCAShapeLayer.xcassets; sourceTree = "<group>"; };
+		5093F69E1EAA08B10033CD58 /* BKGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKGradientView.h; sourceTree = "<group>"; };
+		5093F69F1EAA08B10033CD58 /* BKGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKGradientView.m; sourceTree = "<group>"; };
+		5093F6A11EAA0B4D0033CD58 /* BKCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCanvasView.h; sourceTree = "<group>"; };
+		5093F6A21EAA0B4D0033CD58 /* BKCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCanvasView.m; sourceTree = "<group>"; };
+		5093F6B11EAA0F2E0033CD58 /* NSArray+BKSafeExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BKSafeExts.h"; sourceTree = "<group>"; };
+		5093F6B21EAA0F2E0033CD58 /* NSArray+BKSafeExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BKSafeExts.m"; sourceTree = "<group>"; };
+		5093F6B31EAA0F2E0033CD58 /* NSDictionary+BKSafeExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BKSafeExts.h"; sourceTree = "<group>"; };
+		5093F6B41EAA0F2E0033CD58 /* NSDictionary+BKSafeExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BKSafeExts.m"; sourceTree = "<group>"; };
+		5093F6B51EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+BKSafeExts.h"; sourceTree = "<group>"; };
+		5093F6B61EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+BKSafeExts.m"; sourceTree = "<group>"; };
+		5093F6B71EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BKSafeExts.h"; sourceTree = "<group>"; };
+		5093F6B81EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BKSafeExts.m"; sourceTree = "<group>"; };
+		5093F6BE1EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+BKExts.h"; sourceTree = "<group>"; };
+		5093F6BF1EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+BKExts.m"; sourceTree = "<group>"; };
 		676DBE564041E280769B169C /* Pods-Bricks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bricks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bricks/Pods-Bricks.debug.xcconfig"; sourceTree = "<group>"; };
 		731F3643ABD9EA3F8A5F2B03 /* Pods-Bricks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bricks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bricks/Pods-Bricks.release.xcconfig"; sourceTree = "<group>"; };
 		94392D319D6620CCF4B261BD /* libPods-Bricks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bricks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +138,7 @@
 		5093F6831EA9E91F0033CD58 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				5093F69D1EAA085C0033CD58 /* BKCommonViews */,
 				5093F6951EA9EE0F0033CD58 /* BKCAShapeLayer */,
 			);
 			path = UI;
@@ -139,6 +161,8 @@
 		5093F6881EA9E96E0033CD58 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				5093F6BD1EAA10CD0033CD58 /* BKRichText */,
+				5093F6A41EAA0E300033CD58 /* BKCSafeContainer */,
 				5093F6891EA9E9840033CD58 /* BKViewController.h */,
 				5093F68A1EA9E9840033CD58 /* BKViewController.m */,
 				5093F68C1EA9E99C0033CD58 /* BKNavigationController.h */,
@@ -173,6 +197,41 @@
 			children = (
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		5093F69D1EAA085C0033CD58 /* BKCommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				5093F69E1EAA08B10033CD58 /* BKGradientView.h */,
+				5093F69F1EAA08B10033CD58 /* BKGradientView.m */,
+				5093F6A11EAA0B4D0033CD58 /* BKCanvasView.h */,
+				5093F6A21EAA0B4D0033CD58 /* BKCanvasView.m */,
+			);
+			path = BKCommonViews;
+			sourceTree = "<group>";
+		};
+		5093F6A41EAA0E300033CD58 /* BKCSafeContainer */ = {
+			isa = PBXGroup;
+			children = (
+				5093F6B11EAA0F2E0033CD58 /* NSArray+BKSafeExts.h */,
+				5093F6B21EAA0F2E0033CD58 /* NSArray+BKSafeExts.m */,
+				5093F6B31EAA0F2E0033CD58 /* NSDictionary+BKSafeExts.h */,
+				5093F6B41EAA0F2E0033CD58 /* NSDictionary+BKSafeExts.m */,
+				5093F6B51EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.h */,
+				5093F6B61EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.m */,
+				5093F6B71EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.h */,
+				5093F6B81EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.m */,
+			);
+			path = BKCSafeContainer;
+			sourceTree = "<group>";
+		};
+		5093F6BD1EAA10CD0033CD58 /* BKRichText */ = {
+			isa = PBXGroup;
+			children = (
+				5093F6BE1EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.h */,
+				5093F6BF1EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.m */,
+			);
+			path = BKRichText;
 			sourceTree = "<group>";
 		};
 		5A18967D93EE17009A8B7616 /* Frameworks */ = {
@@ -314,11 +373,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5093F6BC1EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.m in Sources */,
+				5093F6B91EAA0F2E0033CD58 /* NSArray+BKSafeExts.m in Sources */,
 				5093F68E1EA9E99C0033CD58 /* BKNavigationController.m in Sources */,
+				5093F6A01EAA08B10033CD58 /* BKGradientView.m in Sources */,
 				5093F68B1EA9E9840033CD58 /* BKViewController.m in Sources */,
 				5093F69A1EA9EE2E0033CD58 /* BKCAShapeLayerViewController.m in Sources */,
 				5093F6941EA9EA4C0033CD58 /* BKMainViewController.m in Sources */,
 				5093F66F1EA9E35B0033CD58 /* AppDelegate.m in Sources */,
+				5093F6BA1EAA0F2E0033CD58 /* NSDictionary+BKSafeExts.m in Sources */,
+				5093F6A31EAA0B4D0033CD58 /* BKCanvasView.m in Sources */,
+				5093F6BB1EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.m in Sources */,
+				5093F6C01EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.m in Sources */,
 				5093F66C1EA9E35B0033CD58 /* main.m in Sources */,
 				5093F6911EA9EA130033CD58 /* BKTabBarController.m in Sources */,
 			);
