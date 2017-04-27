@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500E22191EB06BBE002CDDEB /* GBPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E22151EB06BBE002CDDEB /* GBPing.m */; };
+		500E221A1EB06BBE002CDDEB /* GBPingSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E22171EB06BBE002CDDEB /* GBPingSummary.m */; };
+		500E221C1EB06BE1002CDDEB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500E221B1EB06BE1002CDDEB /* CFNetwork.framework */; };
+		500E22211EB06CF4002CDDEB /* BKPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E22201EB06CF4002CDDEB /* BKPingViewController.m */; };
 		5093F66C1EA9E35B0033CD58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F66B1EA9E35B0033CD58 /* main.m */; };
 		5093F66F1EA9E35B0033CD58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F66E1EA9E35B0033CD58 /* AppDelegate.m */; };
 		5093F6771EA9E35B0033CD58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5093F6761EA9E35B0033CD58 /* Assets.xcassets */; };
@@ -23,10 +27,20 @@
 		5093F6BB1EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6B61EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.m */; };
 		5093F6BC1EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6B81EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.m */; };
 		5093F6C01EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093F6BF1EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.m */; };
+		50D663521EAA2FF8007446AF /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D663511EAA2FF8007446AF /* testViewController.m */; };
 		50ED752843ACEA027949F5DF /* libPods-Bricks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94392D319D6620CCF4B261BD /* libPods-Bricks.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500E22131EB06BBE002CDDEB /* GBPing-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GBPing-Prefix.pch"; sourceTree = "<group>"; };
+		500E22141EB06BBE002CDDEB /* GBPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBPing.h; sourceTree = "<group>"; };
+		500E22151EB06BBE002CDDEB /* GBPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBPing.m; sourceTree = "<group>"; };
+		500E22161EB06BBE002CDDEB /* GBPingSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBPingSummary.h; sourceTree = "<group>"; };
+		500E22171EB06BBE002CDDEB /* GBPingSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBPingSummary.m; sourceTree = "<group>"; };
+		500E22181EB06BBE002CDDEB /* ICMPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMPHeader.h; sourceTree = "<group>"; };
+		500E221B1EB06BE1002CDDEB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		500E221F1EB06CF4002CDDEB /* BKPingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPingViewController.h; sourceTree = "<group>"; };
+		500E22201EB06CF4002CDDEB /* BKPingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPingViewController.m; sourceTree = "<group>"; };
 		5093F6671EA9E35B0033CD58 /* Bricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bricks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5093F66B1EA9E35B0033CD58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5093F66D1EA9E35B0033CD58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +72,8 @@
 		5093F6B81EAA0F2E0033CD58 /* NSMutableDictionary+BKSafeExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BKSafeExts.m"; sourceTree = "<group>"; };
 		5093F6BE1EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+BKExts.h"; sourceTree = "<group>"; };
 		5093F6BF1EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+BKExts.m"; sourceTree = "<group>"; };
+		50D663501EAA2FF8007446AF /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		50D663511EAA2FF8007446AF /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		676DBE564041E280769B169C /* Pods-Bricks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bricks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bricks/Pods-Bricks.debug.xcconfig"; sourceTree = "<group>"; };
 		731F3643ABD9EA3F8A5F2B03 /* Pods-Bricks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bricks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bricks/Pods-Bricks.release.xcconfig"; sourceTree = "<group>"; };
 		94392D319D6620CCF4B261BD /* libPods-Bricks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bricks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500E221C1EB06BE1002CDDEB /* CFNetwork.framework in Frameworks */,
 				50ED752843ACEA027949F5DF /* libPods-Bricks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +92,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		500E22121EB06BBE002CDDEB /* GBPing */ = {
+			isa = PBXGroup;
+			children = (
+				500E22131EB06BBE002CDDEB /* GBPing-Prefix.pch */,
+				500E22141EB06BBE002CDDEB /* GBPing.h */,
+				500E22151EB06BBE002CDDEB /* GBPing.m */,
+				500E22161EB06BBE002CDDEB /* GBPingSummary.h */,
+				500E22171EB06BBE002CDDEB /* GBPingSummary.m */,
+				500E22181EB06BBE002CDDEB /* ICMPHeader.h */,
+			);
+			path = GBPing;
+			sourceTree = "<group>";
+		};
+		500E221D1EB06CC2002CDDEB /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				500E221E1EB06CD1002CDDEB /* Ping */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		500E221E1EB06CD1002CDDEB /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				500E221F1EB06CF4002CDDEB /* BKPingViewController.h */,
+				500E22201EB06CF4002CDDEB /* BKPingViewController.m */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
 		5093F65E1EA9E35B0033CD58 = {
 			isa = PBXGroup;
 			children = (
@@ -117,9 +164,12 @@
 		5093F6811EA9E91F0033CD58 /* sections */ = {
 			isa = PBXGroup;
 			children = (
+				500E221D1EB06CC2002CDDEB /* Function */,
 				5093F6881EA9E96E0033CD58 /* Base */,
 				5093F6821EA9E91F0033CD58 /* Main */,
 				5093F6831EA9E91F0033CD58 /* UI */,
+				50D663501EAA2FF8007446AF /* testViewController.h */,
+				50D663511EAA2FF8007446AF /* testViewController.m */,
 			);
 			path = sections;
 			sourceTree = "<group>";
@@ -161,6 +211,7 @@
 		5093F6881EA9E96E0033CD58 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				500E22121EB06BBE002CDDEB /* GBPing */,
 				5093F6BD1EAA10CD0033CD58 /* BKRichText */,
 				5093F6A41EAA0E300033CD58 /* BKCSafeContainer */,
 				5093F6891EA9E9840033CD58 /* BKViewController.h */,
@@ -237,6 +288,7 @@
 		5A18967D93EE17009A8B7616 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				500E221B1EB06BE1002CDDEB /* CFNetwork.framework */,
 				94392D319D6620CCF4B261BD /* libPods-Bricks.a */,
 			);
 			name = Frameworks;
@@ -285,8 +337,8 @@
 				TargetAttributes = {
 					5093F6661EA9E35B0033CD58 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 2LC6CE6H6L;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = HRA7B54795;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -378,13 +430,17 @@
 				5093F68E1EA9E99C0033CD58 /* BKNavigationController.m in Sources */,
 				5093F6A01EAA08B10033CD58 /* BKGradientView.m in Sources */,
 				5093F68B1EA9E9840033CD58 /* BKViewController.m in Sources */,
+				500E22211EB06CF4002CDDEB /* BKPingViewController.m in Sources */,
 				5093F69A1EA9EE2E0033CD58 /* BKCAShapeLayerViewController.m in Sources */,
 				5093F6941EA9EA4C0033CD58 /* BKMainViewController.m in Sources */,
 				5093F66F1EA9E35B0033CD58 /* AppDelegate.m in Sources */,
 				5093F6BA1EAA0F2E0033CD58 /* NSDictionary+BKSafeExts.m in Sources */,
+				50D663521EAA2FF8007446AF /* testViewController.m in Sources */,
+				500E22191EB06BBE002CDDEB /* GBPing.m in Sources */,
 				5093F6A31EAA0B4D0033CD58 /* BKCanvasView.m in Sources */,
 				5093F6BB1EAA0F2E0033CD58 /* NSMutableArray+BKSafeExts.m in Sources */,
 				5093F6C01EAA10CD0033CD58 /* NSMutableAttributedString+BKExts.m in Sources */,
+				500E221A1EB06BBE002CDDEB /* GBPingSummary.m in Sources */,
 				5093F66C1EA9E35B0033CD58 /* main.m in Sources */,
 				5093F6911EA9EA130033CD58 /* BKTabBarController.m in Sources */,
 			);
@@ -486,11 +542,14 @@
 			baseConfigurationReference = 676DBE564041E280769B169C /* Pods-Bricks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2LC6CE6H6L;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HRA7B54795;
 				INFOPLIST_FILE = Bricks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.max.hk.Bricks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msmartech.MsmartGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2bb89bc7-b98e-4fcc-9998-cadb466a671d";
+				PROVISIONING_PROFILE_SPECIFIER = smart_dev;
 			};
 			name = Debug;
 		};
@@ -499,11 +558,12 @@
 			baseConfigurationReference = 731F3643ABD9EA3F8A5F2B03 /* Pods-Bricks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2LC6CE6H6L;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bricks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.max.hk.Bricks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msmartech.MsmartGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

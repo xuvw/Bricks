@@ -8,6 +8,7 @@
 
 #import "BKMainViewController.h"
 #import "BKCAShapeLayerViewController.h"
+#import "BKPingViewController.h"
 
 @interface BKMainViewController ()
 <UITableViewDataSource,UITableViewDelegate>
@@ -23,7 +24,7 @@
 {
     self = [super init];
     if (self) {
-        self.rows = @[@"CAShapeLayer Usage"];
+        self.rows = @[@"CAShapeLayer Usage", @"Ping"];
     }
     return self;
 }
@@ -72,6 +73,12 @@
         case 0:
         {
             BKCAShapeLayerViewController *vc = [[BKCAShapeLayerViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 1:
+        {
+            BKPingViewController *vc = [[BKPingViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
